@@ -1,0 +1,155 @@
+@import url('./compont/card.css');
+@import url('./compont/navbar.css');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arima", system-ui;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    /* لترك مسافة صغيرة بين الصور */
+    /* أو */
+    max-width: 500px;
+    /* لتحديد حد أقصى لحجم الصورة */
+    height: auto;
+    /* للحفاظ على تناسق أبعاد الصورة */
+    object-fit: cover;
+    /* لضمان تغطية كاملة للمساحة */
+    border-radius: 40px;
+}
+
+.main-all {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* first card */
+.twoCards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.cardone {
+    position: relative;
+}
+
+.call {
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    gap: 30px;
+    background-color: white;
+    border-radius: 20px;
+    background-color: rgb(227, 227, 227);
+    width: fit-content;
+    height: fit-content;
+}
+
+.call i {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#phone {
+    width: 100%;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#video {
+    width: 100%;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#microphone {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 60%;
+
+}
+/* card tow */
+.secondCards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    background: linear-gradient(rgb(242, 199, 121) , rgb(235, 182, 246));
+    border-radius: 30px;
+}
+.Apoointemetn {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#avilable {
+    font-size: 8px;
+    font-weight: 600;
+    color: #803efc;
+    background-color: transparent;
+    border: 1px solid #803efc;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 8px;
+}
+.secondCards h3 {
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000000;
+}
+.secondCards p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555555;
+}
+#book {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #803efc;
+    padding: 10px;
+    border-radius: 20px 10px;
+}
+#seeWork {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
