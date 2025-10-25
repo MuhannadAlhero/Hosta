@@ -23,7 +23,7 @@ nav ul {
     margin: 0; /* remove default spacing that can misalign */
 }
 
-nav ul li {
+nav ul li a {
     padding: 0;
     margin: 0;
     cursor: pointer;
@@ -31,6 +31,9 @@ nav ul li {
 }
 
 .active {
+    color: #803efc;
+}
+nav ul li a:hover {
     color: #803efc;
 }
 
@@ -46,6 +49,7 @@ nav ul li {
     color: black;
     cursor: pointer;
     font-weight: 600;
+    transition: all 0.3s ease;
 }
 
 #Login {
@@ -55,4 +59,12 @@ nav ul li {
     color: #ffffff;
     cursor: pointer;
     font-weight: 400;
+}
+#signUp:hover {
+    background-color: #803efc;
+    border: 2px solid #803efc;
+    color: #ffffff;
+}
+#Login:hover {
+    background-color: #555555;
 }
